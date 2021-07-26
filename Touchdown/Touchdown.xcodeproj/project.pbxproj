@@ -60,6 +60,10 @@
 		C8F57E6226AF2E0C00F2A7A8 /* Touchdown */ = {
 			isa = PBXGroup;
 			children = (
+				C8F57E8026AF5C1200F2A7A8 /* Model */,
+				C8F57E7D26AF5BE400F2A7A8 /* Extension */,
+				C8F57E7C26AF5BDB00F2A7A8 /* Utility */,
+				C8F57E7B26AF5BD500F2A7A8 /* View */,
 				C8F57E7226AF594700F2A7A8 /* Data */,
 				C8F57E6326AF2E0C00F2A7A8 /* TouchdownApp.swift */,
 				C8F57E6526AF2E0C00F2A7A8 /* ContentView.swift */,
@@ -87,6 +91,50 @@
 				C8F57E7626AF596300F2A7A8 /* product.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		C8F57E7B26AF5BD500F2A7A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C8F57E7F26AF5C0800F2A7A8 /* Detail */,
+				C8F57E7E26AF5BEE00F2A7A8 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8F57E7C26AF5BDB00F2A7A8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		C8F57E7D26AF5BE400F2A7A8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C8F57E7E26AF5BEE00F2A7A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C8F57E7F26AF5C0800F2A7A8 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C8F57E8026AF5C1200F2A7A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
