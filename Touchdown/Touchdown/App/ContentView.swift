@@ -30,7 +30,7 @@ struct ContentView: View {
                             
                         CategoryGridView()
                         
-                        TitleView(title: "Helmet")
+                        TitleView(title: "Helmets")
                         
                         LazyVGrid(columns: gridLayout,
                                   spacing: 15, pinnedViews: [], content: {
@@ -39,6 +39,10 @@ struct ContentView: View {
                                     } // LOOP
                                   }) // GRID
                             .padding(15)
+                        
+                        TitleView(title: "Brands")
+                        
+                        BrandGridView()
                         
                         FooterView()
                             .padding(.horizontal)
