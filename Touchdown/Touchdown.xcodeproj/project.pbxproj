@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C846C41626B1AD3100CD35A2 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C846C41526B1AD3100CD35A2 /* NavigationBarView.swift */; };
+		C846C41826B1AF1600CD35A2 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C846C41726B1AF1600CD35A2 /* LogoView.swift */; };
 		C8F57E6426AF2E0C00F2A7A8 /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F57E6326AF2E0C00F2A7A8 /* TouchdownApp.swift */; };
 		C8F57E6626AF2E0C00F2A7A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F57E6526AF2E0C00F2A7A8 /* ContentView.swift */; };
 		C8F57E6826AF2E1000F2A7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8F57E6726AF2E1000F2A7A8 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C846C41526B1AD3100CD35A2 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		C846C41726B1AF1600CD35A2 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		C8F57E6026AF2E0C00F2A7A8 /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F57E6326AF2E0C00F2A7A8 /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		C8F57E6526AF2E0C00F2A7A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,8 +74,6 @@
 				C8F57E7C26AF5BDB00F2A7A8 /* Utility */,
 				C8F57E7B26AF5BD500F2A7A8 /* View */,
 				C8F57E7226AF594700F2A7A8 /* Data */,
-				C8F57E6326AF2E0C00F2A7A8 /* TouchdownApp.swift */,
-				C8F57E6526AF2E0C00F2A7A8 /* ContentView.swift */,
 				C8F57E6726AF2E1000F2A7A8 /* Assets.xcassets */,
 				C8F57E6C26AF2E1000F2A7A8 /* Info.plist */,
 				C8F57E6926AF2E1000F2A7A8 /* Preview Content */,
@@ -126,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				C8F57E8326AF5DD000F2A7A8 /* FooterView.swift */,
+				C846C41526B1AD3100CD35A2 /* NavigationBarView.swift */,
+				C846C41726B1AF1600CD35A2 /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -147,6 +151,8 @@
 		C8F57E8526AF60BB00F2A7A8 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				C8F57E6326AF2E0C00F2A7A8 /* TouchdownApp.swift */,
+				C8F57E6526AF2E0C00F2A7A8 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -225,9 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F57E6626AF2E0C00F2A7A8 /* ContentView.swift in Sources */,
+				C846C41826B1AF1600CD35A2 /* LogoView.swift in Sources */,
 				C8F57E8426AF5DD000F2A7A8 /* FooterView.swift in Sources */,
 				C8F57E6426AF2E0C00F2A7A8 /* TouchdownApp.swift in Sources */,
 				C8F57E8226AF5CF300F2A7A8 /* Constant.swift in Sources */,
+				C846C41626B1AD3100CD35A2 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
